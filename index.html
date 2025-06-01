@@ -1,28 +1,53 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Clone</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero">
-        <div class="overlay"></div>
-        <nav class="navbar">
-            <img size= "500"src="assets/images/logo.webp" alt="Netflix" class="logo">
-            <button class="sign-in-btn">Sign In</button>
-        </nav>
-        <div class="hero-content">
-            <h1>Unlimited movies, TV shows, and more</h1>
-            <h2>Watch anywhere. Cancel anytime.</h2>
-            <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <form class="email-form">
-                <input type="email" placeholder="Email address" required>
-                <button type="submit">Get Started ></button>
-            </form>
-        </div>
-    </header>
+
+  <!-- Header -->
+  <header>
+    <img src="assets/logos/netflix-logo.png" alt="Netflix Logo" class="logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">TV Shows</a>
+      <a href="#">Movies</a>
+      <a href="#">My List</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Stranger Things</h1>
+      <p>Experience the Upside Down. Watch Season 4 Now!</p>
+      <div class="hero-buttons">
+        <button class="btn play">▶ Play</button>
+        <button class="btn info">ℹ More Info</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Movie Row -->
+  <section class="movie-row">
+    <h2>Trending Now</h2>
+    <div class="row">
+      <img src="assets/images/movie1.jpg" alt="Movie 1">
+      <img src="assets/images/movie2.jpg" alt="Movie 2">
+      <img src="assets/images/movie3.jpg" alt="Movie 3">
+      <img src="assets/images/movie4.jpg" alt="Movie 4">
+      <img src="assets/images/movie5.jpg" alt="Movie 5">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Netflix Clone | Privacy | Terms | Help</p>
+  </footer>
+
 </body>
 </html>
